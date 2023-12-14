@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-VariableFont_slnt,wght.ttf") format("ttf");
+    font-family: "Rufina";
+    src: url("Rufina-Regular.ttf") format("ttf");
+    font-family: "Lato";
+    src: url("D:\Уник\2 КУРС\КЯР\КП\Fonts\Lato-Regular.ttf") format("ttf");
+  }
+  p {
+    margin: 0;
+  }
+  body{
+    background-color: #233000;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Rufina";
+    font-size: 441.67px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .description{
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Lato", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 846px;
+  }
+  button{
+    width: 400px;
+    padding: 20px 46px;
+    align-items: center;
+    background-color: #EBF0E4;
+    margin-top: 100px;
+  }
+  button p{
+    font-family: "Rufina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #233000;
+  }
+  a{
+    text-decoration: none;
+  }
